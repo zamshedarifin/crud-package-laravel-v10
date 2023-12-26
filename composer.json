@@ -1,5 +1,5 @@
 {
-    "name": "zamshed/crud-package-laravel-v10",
+    "name": "zamshed/crud-package-laravel",
     "description": "A simple Laravel library that allows you to create CRUD operations with a single command",
     "type": "library",
     "license": "MIT",

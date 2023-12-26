@@ -1,7 +1,7 @@
 
 ## Installation
 ```
-composer require zamshed/crud-package-laravel-v10
+composer require zamshed/crud-package-laravel
 ```
 ## Features
 

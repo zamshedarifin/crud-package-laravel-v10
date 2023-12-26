@@ -1,0 +1,35 @@
+{
+    "name": "zamshed/crud-package-laravel",
+    "description": "A simple Laravel library that allows you to create CRUD operations with a single command",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zamshed Arifin",
+            "email": "zamshedularifin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0 || ^8.1"
+    },
+    "require-dev": {
+        "laravel/framework": "^10.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "zamshed\\CrudGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zamshed\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "CrudGenerator": "zamshed\\CrudGenerator\\Facades\\CrudGenerator"
+            }
+        }
+    }
+}

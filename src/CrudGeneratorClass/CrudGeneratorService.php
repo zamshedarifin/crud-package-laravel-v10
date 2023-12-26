@@ -11,7 +11,7 @@ class CrudGeneratorService
 
     protected static function GetStubs($type)
     {
-        return file_get_contents(base_path("vendor/zamshed/crud-package-laravel/src/resources/stubs/$type.stub"));
+        return file_get_contents(base_path("vendor/zamshed/crud-package-laravel-v10/src/resources/stubs/$type.stub"));
     }
 
     /**
